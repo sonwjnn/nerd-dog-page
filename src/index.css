@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .check-content {
+    @apply mb-[51px] flex gap-8 ml-[70px] mr-[29px] items-center md:mx-0;
+  }
+  .menu-item {
+    @apply cursor-pointer hover:text-purple-400 relative after:sm:absolute after:sm:bottom-0 after:sm:left-0 dark:after:sm:bg-white after:sm:bg-black after:sm:h-0.5 after:sm:w-0 hover:after:sm:w-full after:sm:transition-all after:sm:ease-in-out after:sm:duration-300;
+  }
+}
